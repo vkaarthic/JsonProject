@@ -1,0 +1,46 @@
+[
+  {
+    "Id": "1",
+    "UserId": "1",
+    "UserRoles": [
+      {
+        "Id": "1",
+        "Name": "SAASAdmin"
+      },
+      {
+        "Id": "2",
+        "Name": "Admin"
+      }
+    ],
+    "Customers": [
+      {
+        "Id": "1",
+        "Name": "VAR"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "UserId": "2",
+    "UserRoles": [
+      {
+        "Id": "2",
+        "Name": "Admin"
+      }
+    ],
+    "Customers": [
+      {
+        "Id": "1",
+        "Name": "VAR"
+      },
+      {
+        "Id": "4",
+        "Name": "TCS"
+      },
+      {
+        "Id": "5",
+        "Name": "Hibrise"
+      }
+    ]
+  }
+]

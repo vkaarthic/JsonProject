@@ -1,0 +1,41 @@
+[
+  {
+    "Id": "1",
+    "Type": "User",
+    "Name": "SAAS Admin",
+    "Email": "VARSAASAdmin@var.com",
+    "Password": "jhkgjgjgjk&hgy£"
+  },
+  {
+    "Id": "2",
+    "Type": "User",
+    "Name": "Var Admin",
+    "Email": "VARAdmin@var.com",
+    "Password": "jhkgjgjgjk&hgy£"
+  },
+  {
+    "Id": "3",
+    "Type": "User",
+    "Name": "Var Account Executive",
+    "Email": "AE@var.com",
+    "Password": ""
+  },
+  {
+    "Id": "4",
+    "Type": "UserGroup",
+    "Name": "VAR User Group"
+  },
+  {
+    "Id": "5",
+    "Type": "UserGroup",
+    "Name": "Hibrise User Group"
+  },
+  {
+    "Id": "6",
+    "Type": "User",
+    "Name": "Hibrise Admin User",
+    "Email": "hibrise@hibrise.com",
+    "Password": ""
+  }
+
+]

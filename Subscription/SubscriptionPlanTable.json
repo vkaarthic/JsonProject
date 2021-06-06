@@ -1,0 +1,172 @@
+[
+  //-1 in value in unlimited
+  {
+    "Id": "1",
+    "Name": "FMS Service Plan",
+    "Allowed_No_of_Customers": "-1",
+    "Allowed_No_of_Locations": "-1",
+    "Allowed_No_of_Assets": "-1",
+    "Allowed_No_of_Schedules/Month": "-1",
+    "Allowed_No_of_IOT_Sensors": "-1",
+    "TemplateName": "DefaultTemplate",
+    "SubscribedCustomer": [
+      {
+        "Id": "1",
+        "Name": "VAR"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Direct Customer Plan",
+    "Allowed_No_of_Customers": "1",
+    "Allowed_No_of_Locations": "-1",
+    "Allowed_No_of_Assets": "-1",
+    "Allowed_No_of_Schedules/Month": "-1",
+    "Allowed_No_of_IOT_Sensors": "-1",
+    "TemplateName": "DefaultTemplate",
+    "SubscribedCustomer": [
+      {
+        "Id": "2",
+        "Name": "Microsoft"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "VAR Managed Service Plan",
+    "Allowed_No_of_Customers": "0",
+    "Allowed_No_of_Locations": "-1",
+    "Allowed_No_of_Assets": "-1",
+    "Allowed_No_of_Schedules/Month": "-1",
+    "Allowed_No_of_IOT_Sensors": "-1",
+    "TemplateName": "DefaultTemplate",
+    "Customer": [
+      {
+        "Id": "1",
+        "Name": "VAR"
+      }
+    ],
+    "SubscribedCustomer": [
+      {
+        "Id": "4",
+        "Name": "TCS"
+      },
+      {
+        "Id": "5",
+        "Name": "Hibrise"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "VAR FMS Service Plan",
+    "Allowed_No_of_Customers": "-1",
+    "Allowed_No_of_Locations": "-1",
+    "Allowed_No_of_Assets": "-1",
+    "Allowed_No_of_Schedules/Month": "-1",
+    "Allowed_No_of_IOT_Sensors": "-1",
+    "TemplateName": "DefaultTemplate",
+    "Customer": [
+      {
+        "Id": "1",
+        "Name": "VAR"
+      }
+    ],
+    "SubscribedCustomer": [
+      {
+        "Id": "3",
+        "Name": "XYZ Management Services"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "VAR Direct Customer Plan",
+    "Allowed_No_of_Customers": "1",
+    "Allowed_No_of_Locations": "-1",
+    "Allowed_No_of_Assets": "-1",
+    "Allowed_No_of_Schedules/Month": "-1",
+    "Allowed_No_of_IOT_Sensors": "-1",
+    "TemplateName": "DefaultTemplate",
+    "Customer": [
+      {
+        "Id": "1",
+        "Name": "VAR"
+      }
+    ],
+    "SubscribedCustomer": [
+      {
+        "Id": "6",
+        "Name": "Wipro"
+      }
+    ]
+  },
+  {
+    "Id": "6",
+    "Name": "XYZ Direct Customer Plan",
+    "Allowed_No_of_Customers": "1",
+    "Allowed_No_of_Locations": "-1",
+    "Allowed_No_of_Assets": "-1",
+    "Allowed_No_of_Schedules/Month": "-1",
+    "Allowed_No_of_IOT_Sensors": "-1",
+    "TemplateName": "DefaultTemplate",
+    "Customer": [
+      {
+        "Id": "3",
+        "Name": "XYZ Management Services"
+      }
+    ],
+    "SubscribedCustomer": [
+      {
+        "Id": "7",
+        "Name": "CTS"
+      }
+    ]
+  },
+  {
+    "Id": "7",
+    "Name": "XYZ FMS Service Plan",
+    "Allowed_No_of_Customers": "-1",
+    "Allowed_No_of_Locations": "-1",
+    "Allowed_No_of_Assets": "-1",
+    "Allowed_No_of_Schedules/Month": "-1",
+    "Allowed_No_of_IOT_Sensors": "-1",
+    "TemplateName": "DefaultTemplate",
+    "Customer": [
+      {
+        "Id": "1",
+        "Name": "XYZ Management Services"
+      }
+    ],
+    "SubscribedCustomer": [
+      {
+        "Id": "8",
+        "Name": "ABC Management Services"
+      }
+    ]
+  },
+  {
+    "Id": "8",
+    "Name": "XYZ Managed Service Plan",
+    "Allowed_No_of_Customers": "0",
+    "Allowed_No_of_Locations": "-1",
+    "Allowed_No_of_Assets": "-1",
+    "Allowed_No_of_Schedules/Month": "-1",
+    "Allowed_No_of_IOT_Sensors": "-1",
+    "TemplateName": "DefaultTemplate",
+    "Customer": [
+      {
+        "Id": "1",
+        "Name": "XYZ Management Services"
+      }
+    ],
+    "SubscribedCustomer": [
+      {
+        "Id": "9",
+        "Name": "MD"
+      }
+    ]
+  }
+
+]

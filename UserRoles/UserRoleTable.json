@@ -1,0 +1,122 @@
+[
+  {
+    "Id": "1",
+    "Name": "SAASAdmin",
+    "Type": "SAASAdmin",
+    "Status": "Hidden",
+    "Menus": [ "Customer" ],
+    "Screens": [
+      {
+        "Name": "Customer",
+        "Options": [ "Create", "Update" ]
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "Name": "Admin",
+    "Type": "FMSAdmin",
+    "Status": "Hidden",
+    "Menus": [ "Customer", "User", "Location", "Asset" ],
+    "Screens": [
+      {
+        "Name": "Customer",
+        "Options": [ "Create", "Update" ]
+      },
+      {
+        "Name": "User",
+        "Options": [ "Create", "Update" ]
+      }
+    ],
+    "Customers": [
+      {
+        "Id": "1",
+        "Name": "VAR"
+      },
+      {
+        "Id": "3",
+        "Name": "XYZ Management Services"
+      },
+      {
+        "Id": "8",
+        "Name": "ABC Management Services"
+      }
+    ]
+  },
+  {
+    "Id": "3",
+    "Name": "Admin",
+    "Type": "Admin",
+    "Status": "Hidden",
+    "Menus": [ "User", "Location", "Asset" ],
+    "Screens": [
+      {
+        "Name": "User",
+        "Options": [ "Create", "Update" ]
+      }
+    ],
+    "Customers": [
+      {
+        "Id": "2",
+        "Name": "Microsoft"
+      },
+      {
+        "Id": "4",
+        "Name": "TCS"
+      },
+      {
+        "Id": "5",
+        "Name": "Hibrise"
+      },
+      {
+        "Id": "6",
+        "Name": "Wipro"
+      },
+      {
+        "Id": "7",
+        "Name": "CTS"
+      },
+      {
+        "Id": "9",
+        "Name": "MD"
+      }
+    ]
+  },
+  {
+    "Id": "4",
+    "Name": "Account Executive",
+    "Status": "Active",
+    "Menus": [ "User", "Location" ],
+    "Screens": [
+      {
+        "Name": "User",
+        "Options": [ "Create" ]
+      }
+    ],
+    "Customers": [
+      {
+        "Id": "1",
+        "Name": "VAR"
+      }
+    ]
+  },
+  {
+    "Id": "5",
+    "Name": "Account Executive Customer Creation",
+    "Status": "Active",
+    "Menus": [ "Customer" ],
+    "Screens": [
+      {
+        "Name": "Customer",
+        "Options": [ "Create", "Update" ]
+      }
+    ],
+    "Customers": [
+      {
+        "Id": "1",
+        "Name": "VAR"
+      }
+    ]
+  }
+
+]

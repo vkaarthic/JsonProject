@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "1",
+    "CustomerId": "1",
+    "Address": "",
+    "Website": "",
+    "Logo": ""
+  },
+  {
+    "Id": "2",
+    "CustomerId": "3",
+    "Address": "",
+    "Website": "",
+    "Logo": ""
+  },
+  {
+    "Id": "3",
+    "CustomerId": "2",
+    "Address": "",
+    "Website": "",
+    "Logo": ""
+  }
+]

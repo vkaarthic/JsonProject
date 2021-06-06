@@ -1,0 +1,119 @@
+[
+  {
+    "Id": "1",
+    "Name": "VAR",
+    "ContactName": "Ganesh",
+    "EmailAddress": "ganesh@var.com",
+    "Plans": [
+      {
+        "Id": "1",
+        "Name": "FMS Service Plan"
+      }
+    ],
+    "ParentId": ""
+  },
+  {
+    "Id": "2",
+    "Name": "Microsoft",
+    "ContactName": "Gupta",
+    "EmailAddress": "Gupta@microsoft.com",
+    "Plans": [
+      {
+        "Id": "2",
+        "Name": "Direct Customer Plan"
+      }
+    ],
+    "ParentId": ""
+  },
+  {
+    "Id": "3",
+    "Name": "XYZ Management Services",
+    "ContactName": "Kumar",
+    "EmailAddress": "Kumar@xyz.com",
+    "Plans": [
+      {
+        "Id": "1",
+        "Name": "VAR FMS Service Plan"
+      }
+    ],
+    "ParentId": "1"
+  },
+  {
+    "Id": "4",
+    "Name": "TCS",
+    "ContactName": "TCS Contact",
+    "EmailAddress": "Contact@tcs.com",
+    "Plans": [
+      {
+        "Id": "3",
+        "Name": "VAR Managed Service Plan"
+      }
+    ],
+    "ParentId": "1"
+  },
+  {
+    "Id": "5",
+    "Name": "Hibrise",
+    "ContactName": "Hibrise Contact",
+    "EmailAddress": "contact@hibrise.com",
+    "Plans": [
+      {
+        "Id": "3",
+        "Name": "VAR Managed Service Plan"
+      }
+    ],
+    "ParentId": "1"
+  },
+  {
+    "Id": "6",
+    "Name": "Wipro",
+    "ContactName": "Wipro Contact",
+    "EmailAddress": "contact@Wipro.com",
+    "Plans": [
+      {
+        "Id": "5",
+        "Name": "VAR Direct Customer Plan"
+      }
+    ],
+    "ParentId": "1"
+  },
+  {
+    "Id": "7",
+    "Name": "CTS",
+    "ContactName": "CTS Contact",
+    "EmailAddress": "contact@cts.com",
+    "Plans": [
+      {
+        "Id": "5",
+        "Name": "XYZ Direct Customer Plan"
+      }
+    ],
+    "ParentId": "3"
+  },
+  {
+    "Id": "8",
+    "Name": "ABC Management Services",
+    "ContactName": "ABC Contact",
+    "EmailAddress": "contact@ABC.com",
+    "Plans": [
+      {
+        "Id": "7",
+        "Name": "XYZ FMS Service Plan"
+      }
+    ],
+    "ParentId": "3"
+  },
+  {
+    "Id": "9",
+    "Name": "MD",
+    "ContactName": "MD Contact",
+    "EmailAddress": "contact@MD.com",
+    "Plans": [
+      {
+        "Id": "8",
+        "Name": "XYZ Managed Service Plan"
+      }
+    ],
+    "ParentId": "8"
+  }
+]

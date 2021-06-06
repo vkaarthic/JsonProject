@@ -1,0 +1,40 @@
+[
+  {
+    "Id": "1",
+    "CustomerId": "1",
+    "Users": [
+      {
+        "Id": "2",
+        "Type": "User",
+        "Name": "Var Admin"
+      },
+      {
+        "Id": "3",
+        "Type": "User",
+        "Name": "Var Account Executive"
+      },
+      {
+        "Id": "4",
+        "Type": "UserGroup",
+        "Name": "VAR User Group"
+      }
+    ]
+  },
+  {
+    "Id": "2",
+    "CustomerId": "5",
+    "Users": [
+      {
+        "Id": "5",
+        "Type": "UserGroup",
+        "Name": "Hibrise User Group"
+      },
+      {
+        "Id": "6",
+        "Type": "User",
+        "Name": "Hibrise Admin User"
+      }
+    ]
+
+  }
+]

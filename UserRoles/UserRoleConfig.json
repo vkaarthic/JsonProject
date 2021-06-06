@@ -1,0 +1,13 @@
+{
+  "Menus": [ "Customer", "User", "Location", "Asset" ],
+  "Screens": [
+    {
+      "Name": "Customer",
+      "Options": [ "Create", "Update" ]
+    },
+    {
+      "Name": "User",
+      "Options": [ "Create", "Update" ]
+    }
+  ]
+}
